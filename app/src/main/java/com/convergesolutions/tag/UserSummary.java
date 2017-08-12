@@ -25,7 +25,6 @@ public class UserSummary extends AppCompatActivity {
         textView.setText(Name);
         textView.setText(Hashtags);
 
-
     }
 }
 
