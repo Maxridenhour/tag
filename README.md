@@ -16,4 +16,3 @@ Dependencies:
     testCompile 'junit:junit:4.12'
     
 No Services
-
