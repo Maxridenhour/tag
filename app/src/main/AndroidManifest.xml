@@ -19,6 +19,7 @@
         </activity>
         <activity
             android:name=".Hashtag"
+            android:label="Hashtag"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".UserSummary"
