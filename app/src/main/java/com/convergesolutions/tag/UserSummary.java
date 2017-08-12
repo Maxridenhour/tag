@@ -21,7 +21,7 @@ public class UserSummary extends AppCompatActivity {
         String Name = intent.getStringExtra(Hashtag.EXTRA_MESSAGE);
         String Hashtags = intent.getStringExtra(Hashtag.EXTRA_MESSAGE2);
         TextView textView = (TextView) findViewById(R.id.textView7);
-        TextView textView = (TextView) findViewById(R.id.textView9);
+        TextView textView2 = (TextView) findViewById(R.id.textView9);
         textView.setText(Name);
         textView.setText(Hashtags);
 
