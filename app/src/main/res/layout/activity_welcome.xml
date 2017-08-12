@@ -27,14 +27,14 @@
         android:layout_marginBottom="20dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/Name"
         app:layout_constraintBottom_toTopOf="@+id/editText2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:hint="@string/Name"/>
 
     <EditText
         android:id="@+id/editText2"
@@ -43,7 +43,7 @@
         android:layout_marginBottom="18dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="@string/Email"
+        android:hint="@string/Email"
         app:layout_constraintBottom_toTopOf="@+id/editText3"
         app:layout_constraintLeft_toLeftOf="@+id/editText"
         app:layout_constraintRight_toRightOf="@+id/editText"
@@ -59,7 +59,7 @@
         android:layout_marginBottom="14dp"
         android:ems="10"
         android:inputType="phone"
-        android:text="@string/Phone"
+        android:hint="@string/Phone"
         app:layout_constraintBottom_toTopOf="@+id/editText4"
         app:layout_constraintLeft_toLeftOf="@+id/editText2"
         app:layout_constraintRight_toRightOf="@+id/editText2"
@@ -75,7 +75,7 @@
         android:layout_marginBottom="17dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/Kik"
+        android:hint="@string/Kik"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintLeft_toLeftOf="@+id/editText3"
         app:layout_constraintRight_toRightOf="@+id/editText3"
