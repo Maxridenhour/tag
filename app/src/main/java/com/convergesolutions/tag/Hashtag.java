@@ -20,13 +20,24 @@ public class Hashtag extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hashtag);
+<<<<<<< HEAD
 
+=======
+        // what does this do
+>>>>>>> e336206311bd4450e2dc2fefcb6653e1afd298b5
         Intent intent = getIntent();
                 String Name = intent.getStringExtra(Welcome.EXTRA_MESSAGE);
                 TextView textView = (TextView) findViewById(R.id.textView13);
                 textView.setText(Name);}
 
+<<<<<<< HEAD
 
+=======
+        //add new handler to handle transition located in anim
+
+
+    // what does this do.
+>>>>>>> e336206311bd4450e2dc2fefcb6653e1afd298b5
     public void UserSummary(View view) {
         Intent intent = new Intent(this, UserSummary.class);
         TextView TextView2 = (TextView) findViewById(R.id.textView13);
@@ -39,7 +50,11 @@ public class Hashtag extends AppCompatActivity {
 
     }
 
+<<<<<<< HEAD
             }
+=======
+
+>>>>>>> e336206311bd4450e2dc2fefcb6653e1afd298b5
 
 
 

@@ -24,6 +24,14 @@ public class UserSummary extends AppCompatActivity {
         TextView textView2 = (TextView) findViewById(R.id.textView9);
         textView.setText(Name);
         textView.setText(Hashtags);
+<<<<<<< HEAD
+=======
+        public void run () {
+            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+            finish();
+        }
+
+>>>>>>> e336206311bd4450e2dc2fefcb6653e1afd298b5
     }
 }
 
