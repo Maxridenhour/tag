@@ -25,3 +25,5 @@ we need the group email to provision the firebase, which i think would be better
 
 https://firebase.google.com/docs/android/setup
 
+Added transitions. the other code i have doesnt function at the moment. 
+
