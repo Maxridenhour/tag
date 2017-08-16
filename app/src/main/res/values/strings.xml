@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">tag</string>
+    <string name="Question1">How would you like to be contacted?</string>
+    <string name="DoneButton">Done</string>
+    <string name="Email">Email (Required)</string>
+    <string name="Name">Name (Required)</string>
+    <string name="Phone">Phone (Optional)</string>
+    <string name="Kik">Kik (Optional)</string>
+    <string name="applogo">tag Logo</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="Splash">Gift, trade, and sell with your neighbors and make new friends!</string>
+    <string name="Begin">Begin</string>
+    <string name="title_activity_hashtag">Hashtag</string>
+    <string name="InventoryText">What do you have to gift, share, barter, sell?</string>
+    <string name="HashEx">#pizza, #car, #cookies, #pianolessons, #bbq, #movietickets, #groceries, #couch, #apartment, #swimmingpoolm #textbooks, #clothes, etc.</string>
+    <string name="title_activity_user_summary">User Summary</string>
+    <string name="Match">Match</string>
+    <string name="UserName">Name Goes Here</string>
+    <string name="ForOthers">For Others</string>
+    <string name="FromOthers">From Others</string>
+    <string name="TextGoesHere">Text Goes Here</string>
+
 </resources>
