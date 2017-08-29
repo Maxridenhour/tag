@@ -14,15 +14,13 @@ public class SplashScreen extends AppCompatActivity {
     //create this activity spash screen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash_screen);}
+        setContentView(R.layout.activity_splash_screen);
+    }
 
     //start the activity.
     public void Welcome(View view) {
         Intent intent = new Intent(this, Welcome.class);
-        startActivity(intent);}
-        //add transition
-    public void run () {
+        startActivity(intent);
         overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-        finish();
     }
 }

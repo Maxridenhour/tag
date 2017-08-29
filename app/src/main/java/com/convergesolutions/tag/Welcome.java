@@ -23,6 +23,7 @@ public class Welcome extends AppCompatActivity {
             String Name = editText.getText().toString();
             intent.putExtra(EXTRA_MESSAGE, Name);
             startActivity(intent);
+            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 
 
     }
