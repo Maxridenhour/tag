@@ -102,7 +102,9 @@
         android:layout_marginRight="8dp"
         app:layout_constraintVertical_bias="0.501"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="@+id/textView11" />
+        app:layout_constraintLeft_toLeftOf="@+id/textView11"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <TextView
         android:id="@+id/textView10"
@@ -116,7 +118,8 @@
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/textView8"
         android:layout_marginLeft="8dp"
-        tools:ignore="RtlHardcoded" />
+        tools:ignore="RtlHardcoded"
+        android:layout_marginStart="8dp" />
 
     <TextView
         android:id="@+id/textView11"
@@ -135,5 +138,11 @@
         android:layout_marginBottom="60dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+    <AdapterViewFlipper
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
 </android.support.constraint.ConstraintLayout>
 

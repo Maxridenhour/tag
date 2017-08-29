@@ -11,11 +11,17 @@ import android.view.View;
 public class SplashScreen extends AppCompatActivity {
 
     @Override
+    //create this activity spash screen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);}
 
+    //start the activity.
     public void Welcome(View view) {
         Intent intent = new Intent(this, Welcome.class);
-        startActivity(intent);}
+        startActivity(intent);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
+
 }
+

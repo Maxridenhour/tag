@@ -17,3 +17,13 @@ Dependencies:
     
 No Services
 
+# Log
+
+Installed Google Repo SDK. GO to tools, android, sdk tools, check on google repo and download.
+
+we need the group email to provision the firebase, which i think would be better, but its way eaiser to setup then back then
+
+https://firebase.google.com/docs/android/setup
+
+Added transitions. the other code i have doesnt function at the moment. 
+

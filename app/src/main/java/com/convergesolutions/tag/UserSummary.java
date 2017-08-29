@@ -23,8 +23,9 @@ public class UserSummary extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.textView7);
         TextView textView2 = (TextView) findViewById(R.id.textView9);
         textView.setText(Name);
-        textView.setText(Hashtags);
-    }
-}
+        textView.setText(Hashtags);}
+
+        }
+
 
 

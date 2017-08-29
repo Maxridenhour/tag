@@ -14,19 +14,24 @@ import java.util.jar.Attributes;
 
 public class Hashtag extends AppCompatActivity {
 
-    public static final String EXTRA_MESSAGE="com.convergesolutions.tag.MESSAGE";
-    public static final String EXTRA_MESSAGE2="com.convergesolutions.tag.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.convergesolutions.tag.MESSAGE";
+    public static final String EXTRA_MESSAGE2 = "com.convergesolutions.tag.MESSAGE";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hashtag);
-
+        // what does this do
         Intent intent = getIntent();
-                String Name = intent.getStringExtra(Welcome.EXTRA_MESSAGE);
-                TextView textView = (TextView) findViewById(R.id.textView13);
-                textView.setText(Name);}
+        String Name = intent.getStringExtra(Welcome.EXTRA_MESSAGE);
+        TextView textView = (TextView) findViewById(R.id.textView13);
+        textView.setText(Name);
+    }
+
+    //add new handler to handle transition located in anim
 
 
+    // what does this do.
     public void UserSummary(View view) {
         Intent intent = new Intent(this, UserSummary.class);
         TextView TextView2 = (TextView) findViewById(R.id.textView13);
@@ -36,10 +41,11 @@ public class Hashtag extends AppCompatActivity {
         intent.putExtra(EXTRA_MESSAGE, Name);
         intent.putExtra(EXTRA_MESSAGE2, Hashtags);
         startActivity(intent);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 
     }
+}
 
-            }
 
 
 

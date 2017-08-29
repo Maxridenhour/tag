@@ -83,7 +83,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="37dp"
+        android:layout_marginBottom="38dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:onClick="UserSummary"/>
 
@@ -105,5 +105,11 @@
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintTop_creator="1" />
+
+    <AdapterViewFlipper
+        android:layout_width="0dp"
+        android:layout_height="94dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
 
 </android.support.constraint.ConstraintLayout>
